@@ -1,0 +1,38 @@
+{
+  "predeterminada": {
+    "--color-primario": "#355C5D",
+    "--color-fondo": "#355C5D",
+    "--color-fondo-secundario": "#F4EFE6",
+    "--color-titulos": "#2d2a26",
+    "--color-secundario": "#D6A284",
+    "--color-parrafos": "#1F1717",
+    "--paleta-suave": "#D6A284"
+  },
+  "clasica": {
+    "--color-primario": "#181818",
+    "--color-fondo": "#181818",
+    "--color-fondo-secundario": "#F7F3E8",
+    "--color-titulos": "#181818",
+    "--color-secundario": "#B9975B",
+    "--color-parrafos": "#181818",
+    "--paleta-suave": "#E6D5B8"
+  },
+  "moderna": {
+    "--color-primario": "#142638",
+    "--color-fondo": "#142638",
+    "--color-fondo-secundario": "#F5F5F3",
+    "--color-titulos": "#142638",
+    "--color-secundario": "#B8BEC5",
+    "--color-parrafos": "#142638",
+    "--paleta-suave": "#71879A"
+  },
+  "romance": {
+    "--color-primario": "#542737",
+    "--color-fondo": "#542737",
+    "--color-fondo-secundario": "#FAF1EC",
+    "--color-titulos": "#542737",
+    "--color-secundario": "#B87968",
+    "--color-parrafos": "#542737",
+    "--paleta-suave": "#E5C5BF"
+  }
+}
