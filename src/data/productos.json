@@ -1,0 +1,23 @@
+[
+  {
+    "id": "singapur-18k-1",
+    "nombre": "Singapur 18K.",
+    "imagen": "https://napoleonejoyas.co/cdn/shop/files/photo_5008047058615118969_y_0b073d3b-4eba-4bd5-aa16-527c822f4879.jpg?v=1689442115",
+    "precio": "$ 550.000",
+    "descripcion": "Elegante, delicada y con un hermoso brillo. Ideal para complementar cualquier look."
+  },
+  {
+    "id": "la-cubana-2",
+    "nombre": "La Cubana.",
+    "imagen": "https://i.etsystatic.com/30296036/r/il/12f9f5/3819255431/il_1080xN.3819255431_rv5a.jpg",
+    "precio": "$ 5.700.000",
+    "descripcion": "Diseño elegante y robusto, con un acabado brillante que destaca en cualquier ocasión."
+  },
+  {
+    "id": "la-soga-3",
+    "nombre": "La soga.",
+    "imagen": "https://dukijoyeria.com/wp-content/uploads/2025/06/Gemini_Generated_Image_uuoup6uuoup6uuou.webp",
+    "precio": "$ 3.490.000",
+    "descripcion": "Estilo y elegancia que destacan. Diseño clásico y sofisticado, perfecta para lucir todos los días."
+  }
+]
