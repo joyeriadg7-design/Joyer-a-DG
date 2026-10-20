@@ -46,9 +46,9 @@
 <svelte:head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Explora nuestros productos • Catálogo Oficial</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"></svelte:head>
+
+
+</svelte:head>
 
 
   <!-- 1. Header / Navbar Original del Proyecto (index.html) -->
@@ -67,7 +67,7 @@
         <!-- Tarjeta: Singapur 18K. -->
         <div class="card-overlay-hover">
           <div class="card-img-box">
-            <img src="https://napoleonejoyas.co/cdn/shop/files/photo_5008047058615118969_y_0b073d3b-4eba-4bd5-aa16-527c822f4879.jpg?v=1689442115" alt="Foto de Singapur 18K." loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&amp;auto=format&amp;fit=crop&amp;q=80';">
+            <img src="https://napoleonejoyas.co/cdn/shop/files/photo_5008047058615118969_y_0b073d3b-4eba-4bd5-aa16-527c822f4879.jpg?v=1689442115" alt="Foto de Singapur 18K." loading="lazy" on:error|once={(event) => { event.currentTarget.setAttribute('src', 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80'); }}>
           </div>
           <div class="card-badge-flotante">
             <span>$ 550.000</span>
@@ -85,7 +85,7 @@
         <!-- Tarjeta: La Cubana. -->
         <div class="card-overlay-hover">
           <div class="card-img-box">
-            <img src="https://i.etsystatic.com/30296036/r/il/12f9f5/3819255431/il_1080xN.3819255431_rv5a.jpg" alt="Foto de La Cubana." loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&amp;auto=format&amp;fit=crop&amp;q=80';">
+            <img src="https://i.etsystatic.com/30296036/r/il/12f9f5/3819255431/il_1080xN.3819255431_rv5a.jpg" alt="Foto de La Cubana." loading="lazy" on:error|once={(event) => { event.currentTarget.setAttribute('src', 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80'); }}>
           </div>
           <div class="card-badge-flotante">
             <span>$ 5.700.000</span>
@@ -103,7 +103,7 @@
         <!-- Tarjeta: La soga. -->
         <div class="card-overlay-hover">
           <div class="card-img-box">
-            <img src="https://dukijoyeria.com/wp-content/uploads/2025/06/Gemini_Generated_Image_uuoup6uuoup6uuou.webp" alt="Foto de La soga." loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&amp;auto=format&amp;fit=crop&amp;q=80';">
+            <img src="https://dukijoyeria.com/wp-content/uploads/2025/06/Gemini_Generated_Image_uuoup6uuoup6uuou.webp" alt="Foto de La soga." loading="lazy" on:error|once={(event) => { event.currentTarget.setAttribute('src', 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80'); }}>
           </div>
           <div class="card-badge-flotante">
             <span>$ 3.490.000</span>
